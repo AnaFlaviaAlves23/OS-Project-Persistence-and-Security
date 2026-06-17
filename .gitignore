@@ -1,13 +1,11 @@
-# Executáveis e arquivos objeto
-vsfs
+# Bloquear o executável compilado do Linux (colocando a barra para indicar que é o arquivo)
+/vsfs
+vsfs.exe
+
+# Bloquear extensões de objetos e imagens de disco
 *.o
-*.zip
 *.img
+*.zip
 
-
-# Disco simulado
-disco.img
-
-# Arquivos do sistema (caso use VS Code ou suba pelo Windows)
+# Bloquear configurações do editor
 .vscode/
-.DS_Store
