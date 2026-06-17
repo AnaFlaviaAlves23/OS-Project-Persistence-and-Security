@@ -1,5 +1,4 @@
 # Bloquear o executável compilado do Linux (colocando a barra para indicar que é o arquivo)
-/vsfs
 vsfs.exe
 
 # Bloquear extensões de objetos e imagens de disco
