@@ -1,0 +1,13 @@
+# Executáveis e arquivos objeto
+vsfs
+*.o
+*.zip
+*.img
+
+
+# Disco simulado
+disco.img
+
+# Arquivos do sistema (caso use VS Code ou suba pelo Windows)
+.vscode/
+.DS_Store
