@@ -8,7 +8,7 @@ seguro em arquivo binário.
 
 ## Estrutura dos Arquivos
 
-cofre_senha/
+Segurança 3/
 ├── modulo_autenticacao.h   # Declarações de hash e salt
 ├── modulo_autenticacao.c   # Implementação do hash SHA-256 + salt
 ├── gerenciamento_arquivo.h # Declarações das estruturas e I/O
@@ -35,7 +35,7 @@ cofre_senha/
 
 ## Como Compilar
 
-Abra o terminal na pasta cofre_senha e execute:
+Abra o terminal na pasta Segurança 3 e execute:
 
 gcc main.c modulo_autenticacao.c gerenciamento_arquivo.c -o cofre -I"C:\Program Files\OpenSSL-Win64\include" -L"C:\Program Files\OpenSSL-Win64\lib\VC\x64\MT" -lssl -lcrypto
 
